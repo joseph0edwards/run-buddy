@@ -5,17 +5,16 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
-  /* apply styles to <header> */
- header {
-   
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
+/* apply styles to <header> here */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
 
 header h1 {
   font-weight: bold;
@@ -24,13 +23,12 @@ header h1 {
   margin: 0;
   display: inline;
 }
-
 header a {
   text-decoration: none;
-  color:#fce138;
+  color: #fce138;
 }
 
-header nav  {
+header nav {
   float: right;
   margin: 7px 0;
 }
@@ -68,21 +66,26 @@ footer a {
   color: #024e76;
 }
 
+section {
+  padding: 60px;
+}
+
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
+/* Hero Style End */
 
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
-  color:#024e76;
+  color: #024e76;
   position: absolute;
   bottom: 120px;
   right: 140px;
@@ -92,7 +95,6 @@ footer a {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -116,9 +118,8 @@ footer a {
   background-color: #024e76;
   border: none;
   padding: 10px 20px;
-  font-size: 16px
+  font-size: 16px;
 }
-/* Hero Style End*/
 
 .intro {
   text-align: center;
@@ -134,24 +135,7 @@ footer a {
 
 .steps {
   text-align: center;
-  background: #fce138
-}
-
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138
-}
-
-.secondary-border {
-  border-color: #39a6b2
+  background: #fce138;
 }
 
 .steps div {
@@ -176,4 +160,21 @@ footer a {
 
 .steps span {
   font-size: 38px;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }
